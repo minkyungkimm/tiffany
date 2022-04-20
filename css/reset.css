@@ -1,0 +1,55 @@
+@charset "utf-8";
+@font-face {
+  font-family: "AnticDidone";
+  src: url("../font/Antic_Didone/AnticDidone-Regular.ttf");
+}
+@font-face {
+  font-family: "CoveredByYourGrace";
+  src: url("../font/Covered_By_Your_Grace/CoveredByYourGrace-Regular.ttf");
+}
+@font-face {
+  font-family: "GowunBatang";
+  src: url("../font/Gowun-Batang/fonts/ttf/GowunBatang-Bold.ttf");
+}
+@font-face {
+  font-family: "NotoSerifKR";
+  src: url("../font/NotoSerifKR/NotoSerifKR-Regular.otf");
+  src: url("../font/NotoSerifKR/NotoSerifKR-ExtraLight.otf");
+}
+@font-face {
+  font-family: "NotoSerifKR-light";
+  src: url("../font/NotoSerifKR/NotoSerifKR-ExtraLight.otf");
+}
+@font-face {
+  font-family: "NanumGothic";
+  src: url(../font/Nanum_Gothic/NanumGothic-Regular.ttf);
+}
+@font-face {
+  font-family: "NanumGothicB";
+  src: url(../font/Nanum_Gothic/NanumGothic-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+input {
+  outline: none;
+}
